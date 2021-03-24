@@ -1,0 +1,21 @@
+.first div {
+  margin: 60px;
+  --div-internal-spacing: 40px;
+}
+
+.second div {
+  margin: 10px;
+}
+
+div {
+  margin: 0;
+  padding: 0;
+  border: 1px solid;
+  border-color: black;
+  background-color: lightgray;
+}
+
+div {
+  --div-internal-spacing: 10px;
+  padding: var(--div-internal-spacing);
+}
